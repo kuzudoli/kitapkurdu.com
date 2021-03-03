@@ -1,0 +1,465 @@
+body {
+    background: rgba(163, 45, 45, 1) !important;
+}
+
+/*HEADER*/
+.banner {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+}
+
+.logo img {
+    width: 25%;
+    margin-top: 10px;
+}
+
+.menu2{
+    margin-top: 40px;
+}
+.menu{
+    display: none;
+}
+.menu a {
+    padding: 3px 13px 6px;
+    color: white;
+    display: inline-block;
+    font-size: 22px;
+    margin: 0 4%;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 5px rgba(150, 150, 150, 1);
+    transition: all .7s;
+    border-radius: 3px;
+}
+
+
+.current {
+    background-color: white;
+    color: #C34646 !important;
+    text-shadow: 0px 0px 5px rgba(150, 150, 150, 0.3) !important;
+}
+
+/*İÇERİK*/
+.icerik {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    background-color: rgba(10, 10, 10, .2) !important;
+    transition: all .5s;
+}
+
+.alt-icerik {
+    position: relative;
+    height: 100%;
+    left: 45px;
+}
+
+.iletisim-form {
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 10px;
+    width: 30%;
+    padding: 0px 10px;
+    margin-top: 10px;
+    height: 95%;
+    float: left;
+}
+
+.baslik {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.clr {
+    clear: both;
+}
+
+h5 {
+    float: left;
+    font-weight: lighter !important;
+}
+
+input {
+    float: right;
+    width: 70%;
+    margin-bottom: 10px !important;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 5px !important;
+    resize: none !important;
+}
+
+button {
+    position: relative;
+    float: right;
+}
+
+.adres {
+    margin: 10px;
+    width: 30%;
+    height: 95%;
+    float: left;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.s-medya {
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 10px;
+    width: 30%;
+    padding: 0px 10px;
+    height: 50%;
+    float: left;
+    margin-top: 10px;
+}
+
+.medya {
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 21px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.medya:hover {
+    border: 1px solid;
+    
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.instagram {
+    background: radial-gradient(circle at 5% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.youtube {
+    background-color: #c4302b;
+}
+
+.adres-yazi {
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 10px;
+    width: 30%;
+    padding: 0px 10px;
+    margin-top: 10px;
+    height: 43%;
+    float: left;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.gizli-yazi{
+        display: none;
+}
+.adres-metni {
+    padding: 5% 2%;
+}
+
+/*FOOTER*/
+.footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: #1d1d1d;
+    display: block;
+}
+
+
+/*PC*/
+@media screen and (max-width:1200px) {
+    .alt-icerik {
+        left: 0px;
+    }
+
+    .iletisim-form {
+        margin-left: 35px;
+    }
+
+    .adres-metni {
+        font-size: 16px;
+        padding: 10% 1%;
+    }
+
+}
+
+/*TABLET*/
+@media screen and (max-width:990px) {
+
+    .iletisim-form {
+        margin-left: 30px;
+    }
+
+    .iletisim-form {
+        background-color: rgba(0, 0, 0, 0.2);
+        top: 10px;
+        width: 30%;
+        padding: 0px 10px;
+        margin-top: 10px;
+        height: 95%;
+        float: left;
+    }
+
+    .baslik {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+
+    h5 {
+        display: none;
+    }
+
+    input {
+        float: right;
+        width: 100%;
+        margin-bottom: 10px !important;
+    }
+
+    button {
+        position: relative;
+        float: right;
+        width: 100%;
+    }
+
+    .adres {
+        padding-top: 10px;
+        width: 100%;
+        height: 50%;
+        float: none;
+    }
+
+    iframe {
+        width: 60%;
+        height: 100%;
+        margin-left: 10px;
+    }
+
+    .s-medya {
+        background-color: rgba(0, 0, 0, 0.2);
+        top: 0px;
+        width: 26%;
+        padding: 0px 10px;
+        height: 184px;
+        float: left;
+        margin: 0px 10px;
+        margin-top: 10px;
+    }
+
+    .medya {
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-left: 10%;
+        text-align: center;
+        padding: 5px;
+        font-weight: 500;
+        width: 80%;
+    }
+
+    .adres-yazi {
+        background-color: rgba(0, 0, 0, 0.2);
+        top: 10px;
+        width: 33%;
+        padding: 0px 10px;
+        margin-top: 10px;
+        float: left;
+        font-size: 18px;
+        font-weight: lighter;
+        margin-left: 0px;
+    }
+
+    .adres-metni {
+        text-align: center;
+        padding: 0% 0%;
+        font-size: 21px;
+    }
+
+    .adres-metni span {
+        display: none;
+    }
+}
+
+/*MOBİL*/
+@media screen and (max-width:765px) {
+
+    .banner {
+        display: none;
+    }
+
+    .logo {
+        background-color: #a83838;
+    }
+
+    .logo img {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .ana-menu{
+        display: none;
+    }
+
+    .menu {
+        margin-top: 10px;
+        text-align: center;
+        display: block;
+    }
+
+    .menu a {
+        color: white;
+        display: block;
+        width: 100%;
+        font-size: 22px;
+        letter-spacing: 1px;
+        text-shadow: 0px 0px 5px rgba(150, 150, 150, 1);
+        margin: auto;
+    }
+
+    .menu a:hover {
+        border-radius: 0px;
+        text-decoration: none;
+        background-color: white;
+        color: #C34646;
+        transition: all .7s;
+        text-shadow: 0px 0px 5px rgba(150, 150, 150, 0.5);
+    }
+
+    .icerik {
+        width: 95% !important;
+        height: 750px !important;
+        position: relative;
+        margin-top: 5%;
+        background-color: #822424;
+    }
+    
+    .iletisim-form {
+        background-color: rgba(0, 0, 0, 0);
+        position: relative;
+        width: 100%;
+        padding: 0px 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+        height:30%;
+        float: left;
+    }
+
+    .baslik {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+
+    input {
+        float: right;
+        width: 100%;
+        margin-bottom: 10px !important;
+    }
+    
+    textarea{
+        height: 80px;
+    }
+    button {
+        position: relative;
+        float: right;
+        width: 100%;
+    }
+
+    .adres {
+        position: relative;
+        padding-top: 20px;
+        padding-right: 20px;
+        top: 80px;
+        width: 100%;
+        height: auto;
+        clear: both;
+        margin-bottom: 80px;
+    }
+    
+    .b1{
+        display: none;
+    }
+    .adres-yazi {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+        width: 100%;
+        height: 100px;
+        padding: 0px 10px;
+        margin-top: 0px;
+        float: left;
+        font-size: 18px;
+        font-weight: lighter;
+        margin-left: 0px;
+    }
+    
+    .gizli-yazi{
+        display: block;
+    }
+    .ana-yazi{
+        display: none;
+    }
+    .adres-metni {
+        text-align: center;
+        padding: 0% 0%;
+        font-size: 20px;
+    }
+    .alt-satir{
+        display: none;
+    }
+
+    .adres-metni span {
+        display: none;
+    }
+
+    iframe {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 100%;
+        height: 50%;
+    }
+
+    .s-medya {
+        background-color: rgba(0, 0, 0, 0);
+        top: 0px;
+        width: 100%;
+        padding: 0px 10px;
+        height: 150px;
+        float: left;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    
+    .m1{
+        display: none;
+    }
+    
+    .medya {
+        border-radius: 10px;
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-left: 40px ;
+        text-align: center;
+        padding: 5px;
+        font-weight: 500;
+        width: 80%;
+    }
+
+}
+
+}

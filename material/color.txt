@@ -1,0 +1,2 @@
+#A32D2D (bg-koyu-kırmızı)
+#C34646 (bg-açık-kırmızı)
